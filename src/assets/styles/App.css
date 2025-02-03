@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+:root {
+  /* Pink Shades */
+  --pink-lightest: #ffe6eb;  /* Soft Blush */
+  --pink-lighter: #ffccd6;   /* Baby Pink */
+  --pink-light: #ff99aa;     /* Candy Pink */
+  --pink-base: #ff6680;      /* Classic Pink */
+  --pink-dark: #e64c69;      /* Rose Pink */
+  --pink-darker: #cc3d56;    /* Deep Pink */
+  --pink-darkest: #b32e42;   /* Bold Pink */
+}
+
+.output{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  margin-top: auto;
+  justify-content: center;
+  background-color:white ;
+  color: palevioletred;
+  width: 100dvw;
+  display: flex;
+}
+
