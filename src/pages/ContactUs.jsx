@@ -35,7 +35,7 @@ const ContactUs = () => {
     
     <div className='contact'>
       <div>
-        <img src={mycon2} alt=""  width= "400px" height= "200px"/>
+        <img src={mycon2} alt="img"  width= "400px" height= "200px"/>
         
       </div>
       <div className='contactus'>
