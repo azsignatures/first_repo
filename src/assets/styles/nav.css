@@ -1,0 +1,12 @@
+.nav {
+    width: 100dvw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0;
+    
+}
+.navlink{
+  color: black;
+}

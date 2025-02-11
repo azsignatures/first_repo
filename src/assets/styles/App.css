@@ -27,4 +27,120 @@
   width: 100dvw;
   display: flex;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #ff6680;
+  gap: 10px;
+  padding: 10px;
+  
 
+}
+
+.github{
+  border: var(--pink-darker);
+  background-color: #ffccd6;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  
+}
+li{
+  list-style-type: none;
+}
+button{
+  background-color: #e64c69;
+  
+}
+
+.home{
+  display: grid;
+  grid-template-columns: repeat( 1fr);
+  gap: 50px;
+  background-color: whitesmoke;
+  color: #e64c69;
+}
+.logomi{
+  justify-content: left;
+  
+}
+.section1{
+  display: flex;
+  gap: 50px;
+}
+.section2{
+  display: flex;
+  gap: 50px;
+}
+.contact{
+  display: flex;
+  background-color: white;
+}
+.contactus{
+  /* background-color: wheat; */
+  /* border-radius: 80px; */
+  padding: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: black;
+  height: 70dvh;
+  width: 10odvh;
+}
+.about{
+  display: flex;
+   gap: 30px;
+   background-color: white;
+   color: #e64c69;
+}
+.para{
+  border: 1px solid wheat;
+  border-radius: 20px;
+  padding: 40px;
+}
+h1{
+  justify-content: center;
+  margin: 40px;
+}
+.service{
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  gap: 80px;
+}
+.ser{
+  border: 2px double wheat;
+  border-radius: 40px;
+  background-color: aliceblue;
+  color: #e64c69;
+}
+.service2{
+   border: 2px double wheat;
+  border-radius: 40px;
+  background-color: aliceblue;
+  color: #e64c69;
+}
+.project{
+   border: 2px double wheat;
+  border-radius: 40px;
+  background-color: aliceblue;
+  color: #e64c69;
+}
+.project1{
+   border: 2px double wheat;
+  border-radius: 40px;
+  background-color: aliceblue;
+  color: #e64c69;
+}
+.project2{
+   border: 2px double wheat;
+   border-radius: 40px;
+  background-color: aliceblue;
+  color: #e64c69;
+}
+.resume{
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 80vh;
+  color: #e64c69;
+  
+}
